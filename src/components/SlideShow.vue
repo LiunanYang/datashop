@@ -1,5 +1,6 @@
 <template>
   <div id="contain">
+    <div @click.ctrl="fn">按住ctrl并点击</div>
   </div>
 </template>
 
@@ -8,6 +9,11 @@ export default {
   data () {
     return {
 
+    }
+  },
+  methods: {
+    fn () {
+      alert('1')
     }
   }
 }

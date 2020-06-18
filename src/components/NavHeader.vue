@@ -15,9 +15,24 @@
 export default {
   data () {
     return {
+    }
+  }
+}
+</script>
 
-      }}</script><!-- Add "scoped" attribute to limit CSS to this component only --><style scoped>#header{    width: 100%;    height: 88px;    background-color: #363636;}.header_logo{    width: 50px;    height: 50px;    margin-top: 19px;=}.header_tools{
-        
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+#header{
+    width: 100%;
+    height: 88px;
+    background-color: #363636;
+}
+.header_logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 19px;
+}
+.header_tools{
   float: right;
   color: #b2b2b2;
   line-height: 88px;

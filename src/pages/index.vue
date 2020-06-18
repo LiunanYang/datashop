@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <nav-header></nav-header>
-    <slideshow></slideshow>
+    <slide-show></slide-show>
     <nav-footer></nav-footer>
   </div>
 </template>
